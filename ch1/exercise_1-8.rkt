@@ -1,3 +1,5 @@
+#lang sicp
+
 (define (cube-root-iter guess x)
   (define new-guess (improve guess x))
   (if (good-enough-p guess new-guess)

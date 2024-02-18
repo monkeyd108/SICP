@@ -1,3 +1,5 @@
+#lang sicp
+
 ;; Recrursive definition
 (define (f-rec n)
   (if (< n 3)

@@ -1,3 +1,5 @@
+#lang sicp
+
 (define (factorial n)
   (define (fact-iter product counter)
     (if (> counter n)

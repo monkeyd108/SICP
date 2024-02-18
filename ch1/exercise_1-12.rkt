@@ -1,3 +1,5 @@
+#lang sicp
+
 (define (pascal-triangle-elem r c)
   (if (or (= r c) (= c 1))
     1

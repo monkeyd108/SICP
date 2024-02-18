@@ -1,3 +1,5 @@
+#lang sicp
+
 ;; Implementation of Newtown's method.
 (define (sqrt x)
   (define (sqrt-iter guess)

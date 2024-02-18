@@ -1,3 +1,5 @@
+#lang sicp
+
 ;; The initial `good-enough?` test is not effective for finding the square 
 ;; roots of small numbers because the tolerated error is not relative to 
 ;; the magnitue of our square root. 

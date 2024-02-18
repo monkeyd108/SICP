@@ -1,3 +1,5 @@
+#lang sicp
+
 ;; What are the values of the following expressions?
 (define (A x y)
   (cond ((= y 0) 0)
