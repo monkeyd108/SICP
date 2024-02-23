@@ -13,7 +13,6 @@
                         kinds-of-coins))
                         kinds-of-coins)))))
 
-                
 (define (first-denomination kinds-of-coins)
   (cond ((= kinds-of-coins 1) 1)
         ((= kinds-of-coins 2) 5)
